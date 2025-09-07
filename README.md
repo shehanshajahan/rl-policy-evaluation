@@ -145,8 +145,8 @@ pi_2 = lambda s: {
     15: LEFT  # Stop at goal
 }[s]
 
-print("Name: Archana k")
-print("Register Number: 212222240011")
+print("Name: Shehan Shajahan")
+print("Register Number: 212223240154")
 print_policy(pi_2, P, action_symbols=('<', 'v', '>', '^'), n_cols=4)
 print('Reaches goal {:.2f}%. Obtains an average undiscounted return of {:.4f}.'.format(
     probability_success(env, pi_2, goal_state=goal_state) * 100,
@@ -221,7 +221,8 @@ else:
 
 ## OUTPUT:
 Mention the first and second policies along with its state value function and compare them
-<img width="365" height="210" alt="image" src="https://github.com/user-attachments/assets/4169e01a-f758-4b3d-bd33-d42f91396f8f" />
+<br>
+<img width="365" height="210" alt="image" src="https://github.com/user-attachments/assets/4169e01a-f758-4b3d-bd33-d42f91396f8f" /></br>
 <img width="623" height="139" alt="image" src="https://github.com/user-attachments/assets/12310036-ab06-4f93-ab39-142598985830" />
 <img width="433" height="86" alt="image" src="https://github.com/user-attachments/assets/6c3162f8-569c-4a47-bcb4-d71464e67f9a" />
 <img width="501" height="36" alt="image" src="https://github.com/user-attachments/assets/cfd14fd8-3b27-48b2-bffc-115eff439eeb" />
