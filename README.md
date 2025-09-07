@@ -221,18 +221,17 @@ else:
 
 ## OUTPUT:
 Mention the first and second policies along with its state value function and compare them
-<br>
-<img width="365" height="210" alt="image" src="https://github.com/user-attachments/assets/4169e01a-f758-4b3d-bd33-d42f91396f8f" /></br>
-<img width="623" height="139" alt="image" src="https://github.com/user-attachments/assets/12310036-ab06-4f93-ab39-142598985830" />
-<img width="433" height="86" alt="image" src="https://github.com/user-attachments/assets/6c3162f8-569c-4a47-bcb4-d71464e67f9a" />
-<img width="501" height="36" alt="image" src="https://github.com/user-attachments/assets/cfd14fd8-3b27-48b2-bffc-115eff439eeb" />
-<img width="407" height="106" alt="image" src="https://github.com/user-attachments/assets/a92111d8-6995-4029-9ddc-fb3429c5d9f0" />
-<img width="500" height="24" alt="image" src="https://github.com/user-attachments/assets/e09fc4be-8d3c-436e-9127-2f365d0f0244" />
-<img width="305" height="67" alt="image" src="https://github.com/user-attachments/assets/36808206-7312-40d4-81f9-f686d841b076" />
-<img width="434" height="70" alt="image" src="https://github.com/user-attachments/assets/a0093cae-0159-42b0-9b7c-1341f68973fb" />
-<img width="385" height="59" alt="image" src="https://github.com/user-attachments/assets/ac786d16-43a5-4030-b6bf-303b786ca08d" />
-<img width="434" height="201" alt="image" src="https://github.com/user-attachments/assets/fb77f0eb-dc25-4a2b-a1ea-18a0f82238f6" />
-<img width="311" height="59" alt="image" src="https://github.com/user-attachments/assets/8783e97c-0dd9-4beb-82a8-ef14d5726691" />
+<br><img width="365" height="210" alt="image" src="https://github.com/user-attachments/assets/4169e01a-f758-4b3d-bd33-d42f91396f8f" /></br>
+<br><img width="623" height="139" alt="image" src="https://github.com/user-attachments/assets/12310036-ab06-4f93-ab39-142598985830" /></br>
+<br><img width="433" height="86" alt="image" src="https://github.com/user-attachments/assets/6c3162f8-569c-4a47-bcb4-d71464e67f9a" /></br>
+<br><img width="501" height="36" alt="image" src="https://github.com/user-attachments/assets/cfd14fd8-3b27-48b2-bffc-115eff439eeb" /></br>
+<br><img width="407" height="106" alt="image" src="https://github.com/user-attachments/assets/a92111d8-6995-4029-9ddc-fb3429c5d9f0" /></br>
+<br><img width="500" height="24" alt="image" src="https://github.com/user-attachments/assets/e09fc4be-8d3c-436e-9127-2f365d0f0244" /></br>
+<br><img width="305" height="67" alt="image" src="https://github.com/user-attachments/assets/36808206-7312-40d4-81f9-f686d841b076" /></br>
+<br><img width="434" height="70" alt="image" src="https://github.com/user-attachments/assets/a0093cae-0159-42b0-9b7c-1341f68973fb" /></br>
+<br><img width="385" height="59" alt="image" src="https://github.com/user-attachments/assets/ac786d16-43a5-4030-b6bf-303b786ca08d" /></br>
+<br><img width="434" height="201" alt="image" src="https://github.com/user-attachments/assets/fb77f0eb-dc25-4a2b-a1ea-18a0f82238f6" /></br>
+<br><img width="311" height="59" alt="image" src="https://github.com/user-attachments/assets/8783e97c-0dd9-4beb-82a8-ef14d5726691" /></br>
 
 
 
