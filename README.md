@@ -9,6 +9,22 @@ We are assigned with the task of creating an RL agent to solve the "Bandit Slipp
 ## POLICY EVALUATION FUNCTION
 Policy evaluation refers to the objective and systematic examination of the effects of ongoing policies and public programs on their intended goals. It involves assessing whether policies are achieving their stated objectives and identifying any impediments to their attainment.
 ![image](https://github.com/user-attachments/assets/a895dad5-6784-4ec0-8da0-b3f254ef59d6)
+```py
+def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
+    V = np.zeros(len(P), dtype=np.float64)
+    while True:
+        delta = 0
+        for s in range(len(P)):
+            v = 0
+            a = pi(s)
+            for prob, next_state, reward, done in P[s][a]:
+                v += prob * (reward + gamma * V[next_state])
+            delta = max(delta, abs(V[s] - v))
+            V[s] = v
+        if delta < theta:
+            break
+    return V
+```
 
 ## PROGRAM:
 ```py
@@ -164,7 +180,6 @@ else:
 
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
-
     while True:
         delta = 0
         for s in range(len(P)):
@@ -174,10 +189,8 @@ def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
                 v += prob * (reward + gamma * V[next_state])
             delta = max(delta, abs(V[s] - v))
             V[s] = v
-
         if delta < theta:
             break
-
     return V
 
 
